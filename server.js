@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.text());
 
-// require("./app/routing/apiRoutes")(app);
+ require("./app/routing/apiRoutes")(app);
 // require("./app/routing/htmlRoutes")(app);
 
 
